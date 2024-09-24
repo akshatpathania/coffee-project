@@ -1,0 +1,39 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-options {
+    margin-bottom: 20px;
+  }
+  
+  .login-options button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form.show {
+    display: flex;
+  }
+  
+  .login-form input {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .login-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

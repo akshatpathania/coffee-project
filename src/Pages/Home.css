@@ -1,0 +1,320 @@
+.coffee-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* background-color: rgb(227, 227, 227); */
+}
+
+.left-container {
+  flex: 1;
+  padding: 20px;
+  align-items: center;
+ 
+  position: relative;
+  top:200px;
+  right: -100px;
+  /* text-align: center; */
+}
+
+.left-container h1 {
+  font-size:50px;
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+.left-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  width: 450px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background-color: #622828;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-container video{
+  height: 500px;
+}
+
+.coffee-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ........................................ */
+.slider-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border:none;
+  box-shadow: 0 2px 10px black;
+  position: relative;
+  top: -200px;
+  right: -650px;
+}
+
+.slider {
+  display: flex;
+  width: calc(300px * 4); /* Adjust based on number of images */
+  animation: moveSlider 16s ease-in-out infinite;
+}
+
+.slider img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@keyframes moveSlider {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-300px); /* Move to the next image */
+  }
+  45% {
+    transform: translateX(-300px);
+  }
+  50% {
+    transform: translateX(-600px); /* Move to the next image */
+  }
+  70% {
+    transform: translateX(-600px);
+  }
+  75% {
+    transform: translateX(-900px); /* Move to the next image */
+  }
+  95% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0); /* Back to the first image */
+  }
+}
+
+
+/* shop section */
+
+
+
+
+.shop-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  height: 600px; 
+  padding: 20px;
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.shop-container {
+
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.top-left h2{
+  font-size: 88px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: grey;
+  position: relative;
+  top: 20px;
+  right: -30px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center button{
+  height: 50px;
+  width: 150px;
+  background-color: rgb(73, 73, 206);
+  border: none;
+  padding: 12px 24px;
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+
+}
+.center h2{
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.bottom-right h2{
+  color :grey;
+  font-size: 88px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: -50px;
+  left: -60px;
+}
+
+/*  */
+/* BuyContainerHome.css */
+
+.buy-container-home {
+  text-align: center;
+  padding: 20px;
+}
+
+.buy-container-home h1 {
+  font-size: 4rem;
+  margin-bottom: 100px;
+  color: #3e2222;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.coffee-imagee {
+ height:300px;
+  position: relative;
+  top: -200px;
+  right: 100px;
+}
+
+
+
+/* .right-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+
+} */
+
+.right-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.coffee-info {
+  margin-bottom: 10px;
+}
+
+.coffee-price {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.shop-now-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.shop-now-button:hover {
+  background-color: #555;
+}
+
+
+
+/* BuyContainerHome.css */
+
+.buy-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:200px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.info-container {
+  flex: 1;
+  text-align: left;
+}
+
+.coffee-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.coffee-description {
+  margin-bottom: 10px;
+}
+
+.coffee-cost {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.shop-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+ 
+}
+
+.shop-button:hover {
+  background-color: #555;
+}
+
+.image-container {
+  flex: 1;
+  position: relative;
+}
+
+.coffee-img {
+  width:450px;
+  height: auto;
+ 
+}
+
